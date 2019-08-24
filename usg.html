@@ -1,0 +1,172 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+<title>Login Portal</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--awsome icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script>
+$(document).ready(function(){
+    $("form").hide();
+
+     $("#LOGIN").hover(function(){ 
+     $("form").show(1000);
+$("#LOGIN").hide();
+
+}); 
+});
+
+
+</script>
+</head>
+<style>
+.container{
+  height: auto;
+  
+}
+.container .contant {
+  position: absolute; /* Position the background text */
+  top:0;
+  bottom: 0;  /* At the bottom. Use top:0 to append it to the top */
+  left:0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  
+  
+}
+
+.pa{
+ padding-top:50px;
+ }
+ 
+ .size{font-size:24px;
+ }
+ 
+ .ba{
+ padding-right:100px;
+ 
+ }
+ .cont{
+ }
+ .crystal{
+ position:static;
+ background: rgb(0,0,1); /* Fallback color */
+ background: rgba(140, 115, 115 ,0.5); /* Black background with 0.5 opacity */
+ 
+
+ }
+
+.bb{
+padding-top:10opx;
+}
+
+.form{
+
+padding-left:50px;}
+
+.submitbutton{
+padding-top:20px
+}
+
+.imgcontainer {
+  text-align: center;
+  
+}
+
+
+.fonting{
+font-family:Helvetica;
+font-size:20px;
+
+
+}
+
+
+
+
+ 
+</style>
+
+<body>
+<!-- main Container-->
+<div class="container">
+<!--background-->
+<div class="col-md-12 " style="background-image:url(photo-1497366754035-f200968a6e72.jfif);background-repeat:no-repeat; background-size:100%;height:600px;"> 
+<!--Opacity of black-->
+<div class="col-md-12  contant pa">
+<!--there divsion of 4 each-->
+<!--first-->
+<div class="col-md-6 fonting">
+<b><p align="center">ABOUT US<b></p><br>
+ <p><i class="fa fa-diamond" aria-hidden="true"></i>To ensure clients identify USG as their preferred service provider by providing quality<br>
+ <i class="fa fa-diamond" aria-hidden="true"></i>To be the most recognize and respected global engineering partner to our customers.<br><br> 
+
+ <i class="fa fa-cube" aria-hidden="true"></i>Right Resources<br>
+<i class="fa fa-cube" aria-hidden="true"></i>Right Timing<br> 
+ <i class="fa fa-cube" aria-hidden="true"></i>Right Pricing<br>
+ <i class="fa fa-cube" aria-hidden="true"></i>Right Ethics<br><p> 
+</div>
+
+<!--second-->
+<div class="col-md-6  text-center crystal"><!-- pink opacity-->
+
+<br><br><button  id="LOGIN" type="button" class="btn size bb" align="center" style="background-image:url(capture.PNG) ">LOGIN </button>
+<br><br><p ><i class="fa fa-envelope" aria-hidden="true"></i>    info@usgrpinc.com<br><br><i class="fa fa-phone" aria-hidden="true"></i>    614-495-9222</p> 
+
+<form class="form-horizontal ba" align="right" >
+
+<div class="col-md-12">
+
+<div class="imgcontainer col-md-offset-3">
+<img src="download.jfif" width="120px" height="120px" style="border-radius:50%;"><br><br>
+ </div>
+
+
+<div class="form-group" >
+<label class="col-md-4 control-label " for="User Id" style=" color:black; ">USER ID:</label>
+<div class="col-md-8">
+<input type="text" class="form-control" id="User Id" placeholder="User Id">
+</div>
+</div>
+
+<div class="form-group">
+<label class="control-label col-md-4" for="PASSWORD" style="color:black;">PASSWORD:</label><br>
+<div class="col-md-8">
+<input type="text" class="form-control" id="PASSWORD" placeholder="Password">
+</div>
+
+<div class="col-md-12 col-md-offset-2 text-center">
+<br><button type="button" class="btn-warning "  style="border-radius:10px;">SUBMIT</button><br>
+</div>
+
+<div id="forgot" class="text-left ">
+<br><br><p id="txt" style="color:white;">* Forgot Password</p>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
